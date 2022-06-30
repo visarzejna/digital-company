@@ -4,7 +4,7 @@ import classes from "./About.module.css";
 const About = () => {
      return (
         <div id="about">
-            <body className={classes.ourcompany}>
+            <div className={classes.ourcompany}>
                 <div className={classes.aboutsection}>
                     <div className={classes.innercontainer}>
                         <h1>What is this website all about?</h1>
@@ -23,7 +23,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </body>
+            </div>
             {/* <Footer/> */}
         </div>
         /*

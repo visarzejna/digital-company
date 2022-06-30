@@ -52,7 +52,7 @@ const Header = () => {
               offset={0}
               duration={500}
             >
-              Events  
+              Events
             </Link>
           </li>
           <li>
@@ -71,8 +71,8 @@ const Header = () => {
           <li>
             <Link
               activeClass="current"
-              href="#testimonials"
-              to="testimonials"
+              href="#testemonials"
+              to="testemonials"
               spy={true}
               smooth={true}
               offset={0}
@@ -82,19 +82,17 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <a className="smoothscroll" href="#contact">
-              <Link
-                activeClass="current"
-                href="#contact"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-              >
-                Contact
-              </Link>
-            </a>
+            <Link
+              activeClass="current"
+              href="#contact"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>
@@ -102,11 +100,13 @@ const Header = () => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter fixed={true} typing={0.5}>Digital Design</TypeWriter>
+            <TypeWriter fixed={true} typing={0.5}>
+              Digital Design
+            </TypeWriter>
           </h1>
           <h3>
             Based in Prishtina. <span>Home of the best brands in Kosovo </span>.
-            Enhancing digital design. 
+            Enhancing digital design.
           </h3>
           <hr />
           <ul className="social">
@@ -140,16 +140,16 @@ const Header = () => {
       </div>
 
       <p className="scrolldown">
-      <Link
-              activeClass="current"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-               <i className="fa fa-arrow-circle-down"></i>
-            </Link>
+        <Link
+          activeClass="current"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          <i className="fa fa-arrow-circle-down"></i>
+        </Link>
       </p>
     </header>
   );
