@@ -1,9 +1,9 @@
 import classes from "./About.module.css";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 
 const About = () => {
      return (
-        <div>
+        <div id="about">
             <body className={classes.ourcompany}>
                 <div className={classes.aboutsection}>
                     <div className={classes.innercontainer}>
@@ -24,7 +24,7 @@ const About = () => {
                     </div>
                 </div>
             </body>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
         /*
         <div class="about">

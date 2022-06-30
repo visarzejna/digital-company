@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import About from './Components/About/About';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Test
+      <Header />
+      <About />
+      <Footer />
     </div>
   );
 }
