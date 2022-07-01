@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./SocialMedia.mp4";
+//import video from "./SocialMedia.mp4";
 import Slider from "react-slick";
 
 import "./Work.css";

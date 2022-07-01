@@ -41,7 +41,7 @@ const Footer = () => {
 
       <div className="footer-center">
         <div>
-          <i className="fa-map-marker"></i>
+          <i className="fa fa-map-marker"></i>
           <p>
             <span>Road 66 Boulevard Bill Clinton</span> Pristina, Republic of
             Kosovo
@@ -49,12 +49,12 @@ const Footer = () => {
         </div>
 
         <div>
-          <i className="fa-phone"></i>
+          <i className="fa fa-phone"></i>
           <p>+383-44-123-456</p>
         </div>
 
         <div>
-          <i className="fa-envelope"></i>
+          <i className="fa fa-envelope"></i>
           <p>
             <a href="mailto:support@company.com">support@ebooks.com</a>
           </p>
@@ -64,7 +64,7 @@ const Footer = () => {
       <div className="footer-right">
         <p className="footer-company-about">
           <span>About the website</span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Digital Company is an organization which aims on integrating advanced design for our costumer products. We want to create something really unique for our clients by going with the saying "Design is where science and art break even" in which our purpose is others satisfaction!
         </p>
       </div>
     </footer>
