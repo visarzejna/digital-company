@@ -4,7 +4,7 @@ import classes from "./Contact.module.css";
 const Contact = () => {
   return (
     <div id={classes.contact}>
-      <section id={classes.contact}>
+      <section className={classes.contact}>
   <div className={classes.contactBox}>
     <div className={classes.contactLinks}>
       <h2 className={classes.heading}>CONTACT</h2>
