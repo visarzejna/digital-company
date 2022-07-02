@@ -28,8 +28,8 @@ const Testimonials = () => {
   }, [])
   
   return (
-    <>
-    <div className={classes.testimonials} id='testimonials'>
+    <div id='testimonials'>
+    <div className={classes.testimonials}>
       <h1 className={classes.heading}>Testimonials</h1>
     </div>
     <div className={classes.testimonials}>
@@ -94,7 +94,7 @@ const Testimonials = () => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   )
 }
 export default Testimonials;

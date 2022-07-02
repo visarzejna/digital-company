@@ -1,6 +1,7 @@
 import React from "react";
-//import video from "./SocialMedia.mp4";
+import video from "./SocialMedia.mp4";
 import Slider from "react-slick";
+import { Link } from 'react-scroll'
 
 import "./Work.css";
 import msh from "./msh-transparent.png";
@@ -103,21 +104,35 @@ const Work = () => {
           </div>
         </Slider>
       </div>
-      {/* <div className="work-marketing">
+      {/* <iframe width="1184" height="666" src="https://www.youtube.com/embed/37vmPbHTl_w" title="Office Interior Design Company " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+      <div className="work-marketing">
         <video width="500" height="auto" loop muted autoPlay>
           <source src={video} type="video/mp4" />
         </video>
         <div className="marketing-text">
-          <h1>Let us build your brand</h1>
-          <h3>
+          <h1>Hire us to build your brand</h1>
+          {/* <h3>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi,
             facere minus dolores soluta sed itaque similique dicta magnam atque
             consequuntur accusantium adipisci vero perferendis, blanditiis neque
             earum consectetur? Aspernatur, voluptatem!
-          </h3>
+          </h3> */}
+          <Link
+              activeClass="current"
+              className="btn effect04" data-sm-link-text="CONTACT" target="_blank"
+              href="#contact"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              <span>HIRE US</span>
+            </Link>
+          
         </div>
       </div>
-      <div className="">asda</div> */}
+      
     </div>
   );
 };

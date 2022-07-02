@@ -75,7 +75,7 @@ const Header = () => {
               to="testimonials"
               spy={true}
               smooth={true}
-              offset={-48}
+              offset={0}
               duration={500}
             >
               Testimonials
