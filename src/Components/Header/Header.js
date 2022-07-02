@@ -105,7 +105,7 @@ const Header = () => {
             </TypeWriter>
           </h1>
           <h3>
-            Based in Prishtina. <span>Home of the best brands in Kosovo </span>.
+            Based in Prishtina. <span>Home of the best brands in Kosovo. </span>
             Enhancing digital design.
           </h3>
           <hr />

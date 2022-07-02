@@ -9,16 +9,14 @@ const About = () => {
                     <div className={classes.innercontainer}>
                         <h1>What is this website all about?</h1>
                         <p className={classes.text}>
-                            We've began our mission by creating this company with the hope to re-spread awareness about the importance
-                            of reading books and being in touch with "knowledge" in overall because as we know the world has made a huge
-                            shift towards technology and people have kinda lost touch with reading so we've seen fit to integrate technology and
-                            reality by creating an internet application in ever-service for all those who want and love reading books by doing so, all online. With
-                            the hope that we can remind you of the importance of reading books, we invite you to use our community as an escape
-                            from the daily challenges into the fantasy of reading!
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                         </p>
                         <div className={classes.skills}>
-                            <span>How many books have you read this month?</span>
-                            <span>Which books have you been putting off?</span>
+                            <span>Lorem ipsum dolor sit amet?</span>
+                            <span>Ut enim ad minim veniam?</span>
                             <span></span>
                         </div>
                     </div>
