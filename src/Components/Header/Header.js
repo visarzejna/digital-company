@@ -71,14 +71,14 @@ const Header = () => {
           <li>
             <Link
               activeClass="current"
-              href="#testemonials"
-              to="testemonials"
+              href="#testimonials"
+              to="testimonials"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-48}
               duration={500}
             >
-              Testemonials
+              Testimonials
             </Link>
           </li>
           <li>
