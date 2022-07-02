@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./SocialMedia.mp4";
+//import video from "./SocialMedia.mp4";
 import Slider from "react-slick";
 import { Link } from 'react-scroll'
 
@@ -106,9 +106,9 @@ const Work = () => {
       </div>
       {/* <iframe width="1184" height="666" src="https://www.youtube.com/embed/37vmPbHTl_w" title="Office Interior Design Company " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
       <div className="work-marketing">
-        <video width="500" height="auto" loop muted autoPlay>
-          <source src={video} type="video/mp4" />
-        </video>
+        {/*<video width="500" height="auto" loop muted autoPlay>
+            <source src={video} type="video/mp4" />
+           </video> */}
         <div className="marketing-text">
           <h1>Hire us to build your brand</h1>
           {/* <h3>
