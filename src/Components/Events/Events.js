@@ -32,7 +32,23 @@ const Events = () => {
                   <a href="#" className={classes.a}>View Details</a>
                 </div>
               </li>
-              
+              <li className={classes.lis}>
+                <div className={classes.time}>
+                  <h2 className={classes.h2}>
+                    07<br/><span className={classes.span}>July</span>
+                  </h2>
+                </div>
+                <div className={classes.details}>
+                  <h3 className={classes.h3}>
+                    Where does it come from?
+                  </h3>
+                  <p className={classes.parag}>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin 
+                    literature from 45 BC, making it over 2000 years old.
+                  </p>
+                  <a href="#" className={classes.a}>View Details</a>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
