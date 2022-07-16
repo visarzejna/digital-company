@@ -3,7 +3,7 @@ import classes from './Events.module.css'
 
 const Events = () => {
   return (
-    <div className={classes.event}>
+    <div id="events" className={classes.event}>
       <section className={classes.sec}>
         <div className={classes.leftBox}>
           <div className={classes.content}>

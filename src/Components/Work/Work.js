@@ -1,8 +1,7 @@
 import React from "react";
-//import video from "./SocialMedia.mp4";
+import video from "./TeamWork.mp4";
 import Slider from "react-slick";
-import { Link } from 'react-scroll'
-
+import { Link } from "react-scroll";
 import "./Work.css";
 import msh from "./msh-transparent.png";
 import rams from "./Rams_logo-transparent.png";
@@ -18,9 +17,45 @@ const Work = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div id="work">
+      <video
+        height={"100%"}
+        className="backgroundVideo"
+        loop
+        muted
+        autoPlay
+        playsInline
+      >
+        <source src={video} type="video/mp4" />
+      </video>
       <div className="work-projects">
         <h1>Our Work</h1>
         <Slider {...settings}>
@@ -104,35 +139,25 @@ const Work = () => {
           </div>
         </Slider>
       </div>
-      {/* <iframe width="1184" height="666" src="https://www.youtube.com/embed/37vmPbHTl_w" title="Office Interior Design Company " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
       <div className="work-marketing">
-        {/*<video width="500" height="auto" loop muted autoPlay>
-            <source src={video} type="video/mp4" />
-           </video> */}
         <div className="marketing-text">
           <h1>Hire us to build your brand</h1>
-          {/* <h3>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi,
-            facere minus dolores soluta sed itaque similique dicta magnam atque
-            consequuntur accusantium adipisci vero perferendis, blanditiis neque
-            earum consectetur? Aspernatur, voluptatem!
-          </h3> */}
           <Link
-              activeClass="current"
-              className="btn effect04" data-sm-link-text="CONTACT" target="_blank"
-              href="#contact"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-            >
-              <span>HIRE US</span>
-            </Link>
-          
+            activeClass="current"
+            className="btn effect04"
+            data-sm-link-text="CONTACT"
+            target="_blank"
+            href="#contact"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <span>HIRE US</span>
+          </Link>
         </div>
       </div>
-      
     </div>
   );
 };
